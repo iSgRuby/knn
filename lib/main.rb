@@ -5,6 +5,19 @@
 require './lib/classes'
 require 'gruff'
 
+# Function to create file with the outputs
+def write_output(groups)
+  File.open('./output/groups.txt', 'w') do |file|
+    file.print("This file change every time you enter the main menu\n\nGroups: ")
+    groups.each do |group|
+      file.print("\n\t#{group.name}:\n")
+      group.points.each_with_index do |point, index|
+        file.print("\t\t#{index}: [x:#{point.x}, \ty:#{point.y}]\n")
+      end
+    end
+  end
+end
+
 # Function to create new groups
 # Returns the array with all the groups with the new created group
 def create_group(groups)
@@ -78,7 +91,9 @@ def knn(groups)
   knn_group = Groups.new('knn')
   knn_group.add_points(points)
   groups << knn_group
+  write_output(groups)
   add_to_chart(groups)
+  puts('check the output/groups.txt file and check the new group')
   puts('check the chart and watch the new point with the name knn')
   puts('After you chek insert anything to continue')
   gets
@@ -101,8 +116,18 @@ def knn(groups)
       end
     end
 
-    group_to_add = count.max_by { |key, value| value }
-    group_to_add[0].add_points([knn_point])
+    group_to_add = count.max_by { |key, value| value }[0]
+    group_to_add.add_points([knn_point])
+
+    File.open('./output/knncheck.txt', 'a') do |file|
+      file.print("\n\nk = #{k}\n")
+      points_distance.each_with_index do |(point_k, distance_v), index|
+        file.print("#{index + 1}.- Point from #{point_k.group.name}: [x:#{point_k.x}, y:#{point_k.y}].")
+        file.print("Knn point = [x:#{knn_point.x}, y:#{knn_point.y}]. Distance: #{distance_v}\n")
+      end
+      file.print("group to add the point #{group_to_add.name}")
+    end
+
     knn_group.points.delete(knn_point)
     groups.delete(knn_group) if knn_group.points.empty?
     add_to_chart(groups)
@@ -136,6 +161,9 @@ end
 
 # function main
 def main
+  File.open('./output/knncheck.txt', 'w') do |file|
+    file.print('Here you can check each distance with the knn points')
+  end
   # Array to save any created group
   groups = []
 
@@ -150,6 +178,7 @@ def main
     else
       puts 'Not valid'
     end
+    write_output(groups)
   end
 end
 

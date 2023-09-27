@@ -1,0 +1,97 @@
+Here you can check each distance with the knn points
+
+k = 11
+1.- Point from 0: [x:28, y:51].Knn point = [x:22, y:45]. Distance: 8.48528137423857
+2.- Point from 0: [x:22, y:57].Knn point = [x:22, y:45]. Distance: 12.0
+3.- Point from 0: [x:23, y:60].Knn point = [x:22, y:45]. Distance: 15.033296378372908
+4.- Point from 0: [x:37, y:54].Knn point = [x:22, y:45]. Distance: 17.4928556845359
+5.- Point from 0: [x:32, y:61].Knn point = [x:22, y:45]. Distance: 18.867962264113206
+6.- Point from 0: [x:38, y:57].Knn point = [x:22, y:45]. Distance: 20.0
+7.- Point from 0: [x:42, y:51].Knn point = [x:22, y:45]. Distance: 20.8806130178211
+8.- Point from 0: [x:20, y:67].Knn point = [x:22, y:45]. Distance: 22.090722034374522
+9.- Point from 0: [x:25, y:67].Knn point = [x:22, y:45]. Distance: 22.20360331117452
+10.- Point from 0: [x:1, y:54].Knn point = [x:22, y:45]. Distance: 22.847319317591726
+11.- Point from 0: [x:34, y:69].Knn point = [x:22, y:45]. Distance: 26.832815729997478
+group to add the point 0
+
+k = 11
+1.- Point from 0: [x:42, y:51].Knn point = [x:44, y:47]. Distance: 4.47213595499958
+2.- Point from 0: [x:37, y:54].Knn point = [x:44, y:47]. Distance: 9.899494936611665
+3.- Point from 0: [x:50, y:56].Knn point = [x:44, y:47]. Distance: 10.816653826391969
+4.- Point from 0: [x:38, y:57].Knn point = [x:44, y:47]. Distance: 11.661903789690601
+5.- Point from 0: [x:28, y:51].Knn point = [x:44, y:47]. Distance: 16.492422502470642
+6.- Point from 1: [x:60, y:42].Knn point = [x:44, y:47]. Distance: 16.76305461424021
+7.- Point from 0: [x:32, y:61].Knn point = [x:44, y:47]. Distance: 18.439088914585774
+8.- Point from 1: [x:64, y:45].Knn point = [x:44, y:47]. Distance: 20.09975124224178
+9.- Point from 1: [x:64, y:38].Knn point = [x:44, y:47]. Distance: 21.93171219946131
+10.- Point from 0: [x:22, y:45].Knn point = [x:44, y:47]. Distance: 22.090722034374522
+11.- Point from 1: [x:65, y:39].Knn point = [x:44, y:47]. Distance: 22.47220505424423
+group to add the point 0
+
+k = 11
+1.- Point from 0: [x:20, y:67].Knn point = [x:21, y:69]. Distance: 2.23606797749979
+2.- Point from 0: [x:21, y:72].Knn point = [x:21, y:69]. Distance: 3.0
+3.- Point from 0: [x:25, y:67].Knn point = [x:21, y:69]. Distance: 4.47213595499958
+4.- Point from 0: [x:17, y:73].Knn point = [x:21, y:69]. Distance: 5.656854249492381
+5.- Point from 0: [x:23, y:60].Knn point = [x:21, y:69]. Distance: 9.219544457292887
+6.- Point from 0: [x:22, y:57].Knn point = [x:21, y:69]. Distance: 12.041594578792296
+7.- Point from 0: [x:34, y:69].Knn point = [x:21, y:69]. Distance: 13.0
+8.- Point from 0: [x:34, y:70].Knn point = [x:21, y:69]. Distance: 13.038404810405298
+9.- Point from 0: [x:32, y:61].Knn point = [x:21, y:69]. Distance: 13.601470508735444
+10.- Point from 0: [x:5, y:70].Knn point = [x:21, y:69]. Distance: 16.0312195418814
+11.- Point from 0: [x:5, y:68].Knn point = [x:21, y:69]. Distance: 16.0312195418814
+group to add the point 0
+
+k = 11
+1.- Point from 0: [x:44, y:47].Knn point = [x:42, y:42]. Distance: 5.385164807134504
+2.- Point from 0: [x:42, y:51].Knn point = [x:42, y:42]. Distance: 9.0
+3.- Point from 0: [x:37, y:54].Knn point = [x:42, y:42]. Distance: 13.0
+4.- Point from 0: [x:38, y:57].Knn point = [x:42, y:42]. Distance: 15.524174696260024
+5.- Point from 0: [x:50, y:56].Knn point = [x:42, y:42]. Distance: 16.1245154965971
+6.- Point from 0: [x:28, y:51].Knn point = [x:42, y:42]. Distance: 16.64331697709324
+7.- Point from 1: [x:60, y:42].Knn point = [x:42, y:42]. Distance: 18.0
+8.- Point from 0: [x:22, y:45].Knn point = [x:42, y:42]. Distance: 20.223748416156685
+9.- Point from 0: [x:32, y:61].Knn point = [x:42, y:42]. Distance: 21.470910553583888
+10.- Point from 1: [x:64, y:45].Knn point = [x:42, y:42]. Distance: 22.20360331117452
+11.- Point from 1: [x:64, y:38].Knn point = [x:42, y:42]. Distance: 22.360679774997898
+group to add the point 0
+
+k = 7
+1.- Point from 1: [x:60, y:42].Knn point = [x:52, y:43]. Distance: 8.06225774829855
+2.- Point from 0: [x:44, y:47].Knn point = [x:52, y:43]. Distance: 8.94427190999916
+3.- Point from 0: [x:42, y:42].Knn point = [x:52, y:43]. Distance: 10.04987562112089
+4.- Point from 1: [x:64, y:45].Knn point = [x:52, y:43]. Distance: 12.165525060596439
+5.- Point from 0: [x:42, y:51].Knn point = [x:52, y:43]. Distance: 12.806248474865697
+6.- Point from 1: [x:64, y:38].Knn point = [x:52, y:43]. Distance: 13.0
+7.- Point from 0: [x:50, y:56].Knn point = [x:52, y:43]. Distance: 13.152946437965905
+group to add the point 0
+
+k = 7
+1.- Point from 1: [x:64, y:45].Knn point = [x:68, y:44]. Distance: 4.123105625617661
+2.- Point from 1: [x:73, y:45].Knn point = [x:68, y:44]. Distance: 5.0990195135927845
+3.- Point from 1: [x:67, y:39].Knn point = [x:68, y:44]. Distance: 5.0990195135927845
+4.- Point from 1: [x:65, y:39].Knn point = [x:68, y:44]. Distance: 5.830951894845301
+5.- Point from 1: [x:64, y:38].Knn point = [x:68, y:44]. Distance: 7.211102550927978
+6.- Point from 1: [x:60, y:42].Knn point = [x:68, y:44]. Distance: 8.246211251235321
+7.- Point from 1: [x:75, y:39].Knn point = [x:68, y:44]. Distance: 8.602325267042627
+group to add the point 1
+
+k = 7
+1.- Point from 1: [x:64, y:45].Knn point = [x:65, y:60]. Distance: 15.033296378372908
+2.- Point from 0: [x:50, y:56].Knn point = [x:65, y:60]. Distance: 15.524174696260024
+3.- Point from 1: [x:68, y:44].Knn point = [x:65, y:60]. Distance: 16.278820596099706
+4.- Point from 1: [x:73, y:45].Knn point = [x:65, y:60]. Distance: 17.0
+5.- Point from 1: [x:79, y:50].Knn point = [x:65, y:60]. Distance: 17.204650534085253
+6.- Point from 1: [x:60, y:42].Knn point = [x:65, y:60]. Distance: 18.681541692269406
+7.- Point from 1: [x:65, y:39].Knn point = [x:65, y:60]. Distance: 21.0
+group to add the point 1
+
+k = 7
+1.- Point from 1: [x:68, y:44].Knn point = [x:68, y:47]. Distance: 3.0
+2.- Point from 1: [x:64, y:45].Knn point = [x:68, y:47]. Distance: 4.47213595499958
+3.- Point from 1: [x:73, y:45].Knn point = [x:68, y:47]. Distance: 5.385164807134504
+4.- Point from 1: [x:67, y:39].Knn point = [x:68, y:47]. Distance: 8.06225774829855
+5.- Point from 1: [x:65, y:39].Knn point = [x:68, y:47]. Distance: 8.54400374531753
+6.- Point from 1: [x:60, y:42].Knn point = [x:68, y:47]. Distance: 9.433981132056603
+7.- Point from 1: [x:64, y:38].Knn point = [x:68, y:47]. Distance: 9.848857801796104
+group to add the point 1
